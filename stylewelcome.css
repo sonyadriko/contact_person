@@ -1,0 +1,115 @@
+body {
+			background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(bg.jpg);
+			background-position: center;
+			background-size: cover;
+			justify-content: center;
+			align-items: center;
+		}
+		header{
+			width: 100%;
+			height: 60px;
+			background-color: transparent;
+			overflow: hidden;
+		}
+		header ul {
+			list-style-type: none;
+			text-decoration: none;
+			font-family: Tw cen mt;
+		}
+		header li{
+			margin-right: 40px;
+			float: left;
+		}
+		header ul li a {
+			font-size: 25px;
+			text-decoration: none;
+			color: whitesmoke;
+		}
+		header ul li a:hover {
+			color: #a29bfe;
+			text-decoration: underline;
+		}
+		header ul li p {
+			font-size: 25px;
+			text-decoration: none;
+			color: whitesmoke;
+		}
+		header ul li p:hover {
+			color: #a29bfe;
+			text-decoration: underline;
+		}
+		h1 {
+			margin-top: 3px;
+			color: whitesmoke;
+			float : center;
+			float: center;
+			text-align: center;
+			font-size: 50px;
+			font-family: Tw cen mt;
+			text-decoration: underline; 
+		}
+    	.container {
+		    background-color: white;
+			width: min-content;
+			height: min-content;
+			padding: 1.5rem 2rem;
+			border-radius: 0.5rem;
+			text-align: center;
+			margin: auto;
+			color: black;
+			font-family: 'Tw cen mt', sans-serif;
+    	}
+    	table {
+    		text-align: center;
+    		float: center;
+    	}
+    	.formsearch{
+    		float: right;
+    	}
+    	input[type=text]{
+			width: 130px;
+			border: 2px solid #aaa;
+			border-radius: 4px;
+			margin: 2px 0;
+			outline:none;
+			padding: 5px;
+		}
+		input[type=submit]{
+			background-color: whitesmoke;
+			border-color: #a29bfe;
+			font-family: Geometr415 Blk BT;
+			color: black;
+			padding: 4px 7px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 15px;
+		}
+		input[type=submit]:hover{
+			text-decoration:underline;
+			border-color:black;
+			background-color: #a29bfe;
+		}
+		button{
+			float:left;
+			border: 2px solid #a29bfe;
+			background-color: white;
+			border-color: #a29bfe; 
+			border-radius: 4px;
+			font-family: Geometr415 Blk BT;
+			color: black;
+			padding: 4px 7px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 15px;
+		}
+		button:hover{
+			color: whitesmoke;
+			text-decoration: underline;
+			border-color: #a29bfe; 
+			background-color: #a29bfe;	
+		}
+		.a{
+			float: left;
+		}
